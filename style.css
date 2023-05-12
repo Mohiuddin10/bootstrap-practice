@@ -1,10 +1,15 @@
-*{
-    background-color: rgb(17, 17, 17);
+nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 nav a{
     color: white;
 }
 /* page header  */
+.bt-header-text {
+    font-family: 'Playfair Display', serif;
+}
 .bt-header:hover {
     text-decoration: underline;
     color: white;
@@ -15,3 +20,33 @@ nav a{
     transform: scale(1.5);
     transition: 1s;
 }
+
+/* nav-2  */
+.nav-container-2 a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+/* hero section  */
+.hero-section h1 {
+    color: azure;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.hero-section {
+    width: 510px;
+    height: 115px;
+    margin-bottom: 50px;
+}
+.hero-section a {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-section {
+    margin-top: 100px;
+}
+
+
